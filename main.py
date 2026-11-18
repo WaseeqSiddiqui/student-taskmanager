@@ -50,7 +50,16 @@ def main():
                 print("Please enter a valid numeric task ID.")
 
         elif choice == "4":
-            print("Delete task feature coming soon.")
+            try:
+                task_id = int(input("Enter task ID to delete: "))
+
+                if manager.delete_task(task_id):
+                    print("Task deleted successfully!")
+                else:
+                    print("Task not found.")
+
+            except ValueError:
+                print("Please enter a valid numeric task ID.")
 
         elif choice == "5":
             print("Goodbye!")
