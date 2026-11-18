@@ -181,4 +181,4 @@ The first stable version of the project will be published as **v1.0.0** using Gi
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-Project status: Planning
+Project status: Development
